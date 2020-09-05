@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Talamat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_player_main">SinglePlayerMain</string>
+    <string name="title_activity_single_player_mode">SinglePlayerMode</string>
+    <string name="title_activity_single_player_end">SinglePlayerEnd</string>
+    <string name="title_activity_multi_player_main">MultiPlayerMain</string>
+    <string name="title_activity_multi_player_intro">MultiPlayerIntro</string>
+    <string name="title_activity_multi_player_mode">MultiPlayerMode</string>
+    <string name="title_activity_multi_player_end">MultiPlayerEnd</string>
+</resources>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBackground"
+        android:src="@drawable/background_tala"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pang Isahang Manlalaro"
+        android:id="@+id/btnSingle"
+        android:layout_above="@+id/btnMultiplayer"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pangmaramihan na Manlalaro"
+        android:id="@+id/btnMultiplayer"
+        android:layout_alignBottom="@+id/imgBackground"
+        android:layout_alignLeft="@+id/btnSingle"
+        android:layout_alignStart="@+id/btnSingle"
+        android:layout_marginBottom="78dp"
+        android:layout_alignRight="@+id/btnSingle"
+        android:layout_alignEnd="@+id/btnSingle" />
+</RelativeLayout>
